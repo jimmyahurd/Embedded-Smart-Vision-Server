@@ -29,3 +29,5 @@ def create_app():
     app.register_blueprint(video_gallery)
 
     return app
+
+app = create_app()
